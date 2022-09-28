@@ -136,7 +136,7 @@ function UserCheckout(props) {
         setTotal(totals[totals.length-1]);
         }
         
-    }, [total,props.cart])
+    }, [total,props.cart,data])
 
     
 
