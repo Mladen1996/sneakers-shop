@@ -144,7 +144,7 @@ function UserCheckout(props) {
 
     function confirmTheOrder(){
 
-        if(firstName!="" && lastName!="" && email!="" && address!="" && postalCode!="" && city!=""){
+        if(firstName!=="" && lastName!=="" && email!=="" && address!=="" && postalCode!=="" && city!==""){
             setDeliveryData(true);
 
             props.removeCartItems();
@@ -228,7 +228,7 @@ function UserCheckout(props) {
                                     <td>{item.name}</td>
                                     <td>{item.size}</td>
                                     <td>{item.price} RSD</td>
-                                    <td><img src='images/remove.png' onClick={()=>removeItem(item.id)}/></td>
+                                    <td><img src='images/remove.png' onClick={()=>removeItem(item.id)} alt="remove"/></td>
                                 </tr>
 
                             )

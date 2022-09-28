@@ -5,7 +5,7 @@ import {
 } from '../../Constants/StoreActionTypes';
 
 
-export default function (state = initialState, action) {
+export default function CartReducer(state = initialState, action) {
   // let newState = {};
   console.log(action.payload);
   console.log(state);

@@ -35,7 +35,7 @@ class Banner extends React.Component{
     render(){
         return(
             <Container>
-                <img src="images/banner.jpg" />
+                <img src="images/banner.jpg" alt="banner"/>
                 <h2>Best sneakers <br></br>in the city</h2>
             </Container>
         )

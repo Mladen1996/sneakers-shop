@@ -5,7 +5,7 @@ import {
 } from '../../Constants/StoreActionTypes';
 
 
-export default function (state = initialState, action) {
+export default function DataReducer(state = initialState, action) {
   // let newState = {};
   switch (action.type) {
     case SET_SHOES_DATA:

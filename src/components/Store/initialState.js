@@ -1,4 +1,4 @@
-export default {
+const data= {
     
     allShoes:
         [
@@ -52,7 +52,6 @@ export default {
         counter:0
             
         
-      
-    
-    
   };
+
+  export default data;

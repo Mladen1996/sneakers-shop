@@ -66,7 +66,7 @@ function OrderHistory(props){
         console.log(props.order);
        // const orders = JSON.parse(localStorage.getItem('order-history'));
         setOrders(props.order);
-    }, [])
+    }, [props.order])
 
 
     return(

@@ -1,6 +1,5 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import UserCheckout from './components/UserCheckout/UserCheckout';
 import OrderHistory from './components/OrderHistory/OrderHistory';

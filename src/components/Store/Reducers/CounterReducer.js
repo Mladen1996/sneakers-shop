@@ -5,13 +5,13 @@ import {
 } from '../../Constants/StoreActionTypes';
 
 
-export default function (state = initialState, action) {
+export default function CounterReducer(state = initialState, action) {
   // let newState = {};
   console.log(action.payload);
   console.log(state);
   switch (action.type) {
     case SET_COUNTER:
-        state=action.payload
+      return  state=action.payload
    
      
     default:
