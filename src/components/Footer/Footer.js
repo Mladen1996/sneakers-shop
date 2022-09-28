@@ -25,7 +25,7 @@ class Footer extends React.Component{
     render(){
         return(
             <Container>
-               <p>Copyright © 2022 Shoe shop Design by Mladen Živojinović</p>
+               <p>Copyright © 2022 Sneakers shop Design by Mladen Živojinović</p>
             </Container>
         )
     }
